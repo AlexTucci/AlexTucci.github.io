@@ -7,6 +7,9 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <link rel="stylesheet" href="css/master.css">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -119,25 +122,40 @@
           GitHub Pages is a static site hosting service and doesn't support server-side code such as, PHP, Ruby, or Python.
 
           To learn more about the different types of GitHub Pages sites, see "User, organization, and project pages."</p></p>
+<div  >
+
+
           <h2 class="text-center bitter">What is GitHubPages</h2>
         </div>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+</div>
 
-
-        <div class="col-lg-12">
+        <div class="col-lg-12" data-aos="fade-right">
           <hr>
+
+
           <h3> Guidelines for using GitHub Pages </h3>
+          <hr>
+
+        </div>
+        <div class="col-lg-12" data-aos="fade-right">
+
           <ul>
             <li>GitHub Pages sites created after June 15, 2016 and using github.io domains are served over HTTPS. If you created your site before June 15, 2016, you can enable HTTPS support for traffic to your site.</li>
             <li>GitHub Pages sites shouldn't be used for sensitive transactions like sending passwords or credit card numbers.</li>
             <li>Your use of GitHub Pages is subject to the GitHub Terms of Service, including the prohibition on reselling.</li>
           </ul>
+        </div>
+
+<div class="col-lg-12" data-aos="fade-left">
+
+
           <hr>
-          <h3> Usage Limits </h3>
-          <p>GitHub Pages sites are subject to the following usage limits:</p>
-          <ul>
+          <h3 data-aos="fade-up"> Usage Limits </h3>
+          <p data-aos="fade-right">GitHub Pages sites are subject to the following usage limits:</p>
+          <ul data-aos="fade-left">
             <li>GitHub Pages source repositories have a recommended limit of 1GB .</li>
             <li>Published GitHub Pages sites may be no larger than 1 GB.</li>
             <li>GitHub Pages sites have a soft bandwidth limit of 100GB per month.</li>
@@ -262,6 +280,11 @@
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>
+        AOS.init({
+          duration : 1800,
+})
+      </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
