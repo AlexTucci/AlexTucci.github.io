@@ -46,5 +46,16 @@ h1  {
 
 li {
   font-family: Courier;
-  font-weight: normal;
+  font-weight: bold;
+}
+
+
+.row.row-no-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.col-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
