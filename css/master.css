@@ -10,6 +10,14 @@
   background-color: #35434f;
 }
 
+.bgdf  {
+
+}
+
+.bgcyan {
+  background-color: #527da4;
+}
+
 
 .fontfregsno{
 
@@ -50,7 +58,7 @@ h1  {
   font-family: 'Oswald', sans-serif;
 }
 
-li {
+.lic {
   font-family: Courier;
   font-weight: bold;
 }
