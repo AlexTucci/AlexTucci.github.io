@@ -6,6 +6,11 @@
   background-color: blue;
 }
 
+.bggrey {
+  background-color: #35434f;
+}
+
+
 .fontfregsno{
 
 
@@ -29,6 +34,7 @@ p {
 
 
 }
+
 
 
 .lacquer{
@@ -58,4 +64,19 @@ li {
 .col-no-padding {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+
+/* Container holding the image and the text */
+.containerCONimg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.testocentrato {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
