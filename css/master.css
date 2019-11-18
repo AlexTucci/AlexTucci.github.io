@@ -47,6 +47,9 @@ p {
 
 
 }
+.textchangecolor {color: #746c60}
+
+.textchangecolor:active {color: #ebac00} /* When clicked (or clicked and held) the color will be blue */
 
 .bitter  {
 
