@@ -14,6 +14,10 @@
   background-color: #35434f;
 }
 
+.textcoloratom {
+  color: #efdab9
+}
+
 
 .navatom {
   background-color: #584b4f;
@@ -37,8 +41,24 @@
 
   font-family: 'Open Sans', sans-serif;
 
-
 }
+
+
+
+
+
+
+.imgteletype {
+  width: 750px;
+}
+
+
+
+
+
+
+
+
 
 p {
 
